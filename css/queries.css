@@ -28,7 +28,7 @@
   }
 
   .grid {
-    column-gap: 4.8;
+    column-gap: 4.8rem;
     row-gap: 6.4rem;
 
   }
@@ -46,7 +46,7 @@
   }
 
   .main-nav-list {
-    gap: 3.2;
+    gap: 3.2rem;
   }
 
 
@@ -102,7 +102,7 @@
     padding: 2.4rem 3.2rem 3.2rem 3.2rem;
   }
 
-  .section-testimonial {
+  .section-testimonials {
     grid-template-columns: 1fr;
   }
 
@@ -162,7 +162,7 @@
     opacity: 1;
     pointer-events: auto;
     visibility: visible;
-    transform: translate(0);
+    transform: translateX(0);
   }
 
   .nav-open .icon-mobile-nav[name="close-outline"] {
@@ -177,7 +177,7 @@
 
   .main-nav-list {
     flex-direction: column;
-    gap: 4.8;
+    gap: 4.8rem;
 
   }
 
@@ -225,7 +225,7 @@
 
   .nav-col {
     grid-row: 1;
-    grid-row: span 2;
+    grid-column: span 2;
     margin-bottom: 3.2rem;
 
   }
@@ -233,7 +233,7 @@
 }
 
 /***************************/
-/* BELOW 704PX (SMAll TABLETS)*/
+/*BELOW 544px (Phones)*/
 /***************************/
 
 
@@ -245,7 +245,7 @@
   .grid--2-cols,
   .grid--3-cols,
   .grid--4-cols {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
   }
 
   .btn,
@@ -303,7 +303,7 @@
   }
 
   .cta-img-box {
-    height: 36rem;
+    height: 32rem;
     grid-row: 1;
   }
 }
